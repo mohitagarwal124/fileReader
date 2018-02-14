@@ -1,0 +1,8 @@
+node_modules/*
+test/artifacts/*
+npm-debug.log
+.env
+.idea/*
+log/*
+client/*
+.vscode/*
