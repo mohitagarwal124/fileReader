@@ -95,7 +95,7 @@ async function findLine(searchWord) {
   return new Promise((resolve, reject) => {
     try {
       let lineCollection = [];
-      const filePath = path.resolve('./cacheFile/big.txt');
+      const filePath = path.resolve('./CacheFile/big.txt');
       const readStream = fs.createReadStream(filePath, 'utf8');
 
       readStream.on('data', async (chunk) => {
